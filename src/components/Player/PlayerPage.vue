@@ -88,7 +88,7 @@ margin-left: auto;}
 
 .player{
     border-radius: 0.8em;
-    width:400vh;
+    width:100vh;
     max-width: 100%;
     min-width: 30%;
     height: auto;
