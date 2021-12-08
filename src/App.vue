@@ -10,7 +10,8 @@
     </router-link> 
     
     <router-link class="centerBarItem" to="/user">
-      <img src="./assets/carbon_user-avatar.svg">
+      <img src="./assets/carbon_user-avatar.svg" style="margin-bottom: 2px;"
+      >
     </router-link>
 </div>
   </div>
