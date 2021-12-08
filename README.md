@@ -3,8 +3,11 @@
 ## Mockup
 
 ### Initial Mockup in figma
+Home
 ![alt text](/doc/figmascreenshots/videohome.png)
+Player
 ![alt text](/doc/figmascreenshots/videoplayer.png)
+Upload
 ![alt text](/doc/figmascreenshots/uploadvideo.png)
 
 ### New feature design
