@@ -78,19 +78,23 @@ input {
     border-radius: .5em;
     width:100%;
       resize: vertical;
-
+      padding: .5em;
+      font-size: 2vh;
 }
 
 textarea {
     border-radius: .5em;
     width: 100%;
     resize: vertical;
+    font-size: 2vh;
+
 }
 
 .btn {
     width:100%;
     padding: .5em;
     border-radius: .5em;
+    font-size: 2vh;
     
 }
 </style>
