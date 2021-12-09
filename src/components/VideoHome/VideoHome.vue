@@ -3,10 +3,10 @@
   <div class="flex" v-if="this.$route.path === '/'" >
         <ul>
           <div class="mt-6 flex space-x-6 flex-wrap px-6">
-             <li class="border-red-800 border m-0"
+             <li 
                 v-for="i in videos"
                 :key= "i.id">
-              <div class="sm:p-4 md:p-3 rounded-2xl transform transition duration-500 hover:scale-110">
+              <div class="sm:p-3 md:p-2 rounded-2xl transform transition duration-500 hover:scale-110">
                 <router-link :to="`/videos/${i.id}`">
                   
                   <div>
