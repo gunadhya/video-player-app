@@ -76,7 +76,7 @@ export default {
 } */
 
 li:first-child {
-  margin-left: 3.5vh;
+  margin-left: 2vh;
 }
 
 </style>
