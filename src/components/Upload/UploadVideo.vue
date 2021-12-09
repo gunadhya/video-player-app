@@ -1,12 +1,8 @@
 <template>
-  <div class="flex flex-col">
-
-  <br/>
-    
-      
+  <div class="flex flex-col">      
   <form @submit.prevent="submit">
       <h2 class="text-lg font-bold p-3">Title</h2>
-        <input class="bg-red-50 w-full p-2 rounded-2xl m-2"
+        <input class="bg-red-50 w-full p-2 rounded-2xl m-1"
             v-model="title" 
         />
         <br/>
