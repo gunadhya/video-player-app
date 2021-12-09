@@ -6,7 +6,7 @@
              <li
                 v-for="i in videos"
                 :key= "i.id">
-              <div class="sm:p-4 md:p-3 rounded-2xl">
+              <div class="sm:p-4 md:p-3 rounded-2xl transform transition duration-500 hover:scale-110">
                 <router-link :to="`/videos/${i.id}`">
                   
                   <div class="">
