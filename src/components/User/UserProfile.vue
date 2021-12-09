@@ -1,12 +1,19 @@
 <template>
-  <div class="UserProfile">
+  <div class="text-center">
 
-      <h2>Name</h2> 
-      <h3>{{name}}</h3>
-      <h2>Email</h2> 
-      <h3>{{email}}</h3>
-      <button @click="click">Sign Out</button>
+    
+<div class="m-8 py-4 px-8 bg-white shadow-lg rounded-lg my-20">
+      <h2 class="text-lg font-bold p-3">Name</h2> 
+      <h2 class="text-lg font-normal px-4">{{name}}</h2>
+      <h2 class="text-lg font-bold p-3">Email</h2> 
+      <h2 class="text-lg font-normal px-4">{{email}}</h2>
+     
 </div>
+ <button @click="click" class="
+        bg-red-500 px-5 py-3 text-sm shadow-sm font-medium tracking-wider
+    text-yellow-100 rounded-full hover:shadow-2xl hover:bg-red-700" >Sign Out</button>
+
+    </div>
 
 </template>
 
@@ -37,8 +44,4 @@ export default {
 
 
 <style scoped>
-.UserProfile{
-    margin-top: 5em;
-}
-
 </style>

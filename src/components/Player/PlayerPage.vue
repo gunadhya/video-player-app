@@ -1,30 +1,38 @@
 <template>
-<div class="playerpage">
-    <a @click="click">      
+<div class="p-3">
+<a @click="click">      
       <img src=".././../assets/back.svg">
     </a>
-    <div class="main">
-    <div class="wholeplayer">
-    <video class="player" width="400" controls :src='videosrc'></video>
-        <div class="info">
-            <div>
-                <div class="title">
-                    <h2>{{video.title}}</h2>
-                <div class="views">
-                    <img class="viewsicon" src=".././../assets/akar-icons_eye.svg">
-                    <p style="display: inline-block">{{video.views}} Views</p>
-                </div>
-            </div>
-                <p>{{video.desc}}</p>
-            </div>
+</div>
+<div class="md:flex justify-between items-center">
+
+  <div class="flex flex-col max-w-2xl">
     
-        </div>
+    <div class="flex p-2 m-2">
+        <video width="700" height="500" controls class="rounded-2xl shadow-xl">
+          <source :src='videosrc' type="video/mp4">
+        </video>
     </div>
-    <div class="commentsview">
-        <h1>Comments</h1>
+
+    <div class="flex justify-between items-center p-3 m-2">
+      <div class="text-xl font-bold">{{video.title}}</div>
+      <div class="flex">
+      <div class="mr-2 mt-1"> <img class="viewsicon" src=".././../assets/akar-icons_eye.svg"></div>
+      <div class="font-medium"> {{video.views}} Views </div>
+      </div>
     </div>
+
+    <div class="text-base font-medium p-4 m-2">
+     {{video.desc}}
     </div>
 </div>
+
+
+<div class="flex p-2 border mx-auto">
+  comments
+</div>
+</div>
+
 </template>
 
 <script>
@@ -65,55 +73,5 @@ export default {
 </script>
 
 <style scoped>
- 
-.playerpage{
-    margin-top:5em;
-}
-.title {
-    display: flex;
-    flex-direction: row;
-}
-.views {
-margin-left: auto;}
-.viewsicon{
-    margin-right: 10px;
 
-}
-.main{
-    display: flex;
-}
-.wholeplayer{
-    padding: 1em;
-}
-
-.player{
-    border-radius: 0.8em;
-    width:100vh;
-    max-width: 100%;
-    min-width: 30%;
-    height: auto;
-    padding: .25em;
-}
-
-h2 {
-    font-weight: 775;
-    font-size: 4.0vh;
-}
-p {
-    font-size: 3vmin;
-
-}
-a{
-}
-a:hover{
-    cursor: pointer;
-} 
-
-@media screen and (max-width: 600px) {
-  .commentsview {
-    visibility: hidden;
-    width: 100%;
-    display: none;
-  }
-}
 </style>

@@ -49,5 +49,29 @@ export const testVideos = [
         views: 50,
         thumb: 'https://archive.org/download/ElephantsDream/ElephantsDream.thumbs/ed_1024_000390.jpg',
         source: 'https://ia800209.us.archive.org/20/items/ElephantsDream/ed_1024.mp4',        
+    },
+    {
+        id:7,
+        title: 'Electricsheep 2',
+        desc : 'short video',
+        views: 5,
+        thumb: 'https://archive.org/download/electricsheep-flock-247-60000-9/electricsheep-flock-247-60000-9.thumbs/00247%3D60139%3D59616%3D59614_000001.jpg',
+        source: 'https://ia801409.us.archive.org/0/items/electricsheep-flock-247-60000-9/00247%3D60139%3D59616%3D59614.mp4',        
+    },
+    {
+        id:8,
+        title: 'Big Bunny',
+        desc : 'Animated Short film',
+        views: 5,
+        thumb: 'https://archive.org/download/BigBuckBunny_124/BigBuckBunny_124.thumbs/Content/big_buck_bunny_720p_surround_000255.jpg',
+        source: 'https://ia600300.us.archive.org/17/items/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4',        
+    },
+    {
+        id:9,
+        title: 'Elephants Dream',
+        desc : 'Bud blossom bloom',
+        views: 50,
+        thumb: 'https://archive.org/download/ElephantsDream/ElephantsDream.thumbs/ed_1024_000390.jpg',
+        source: 'https://ia800209.us.archive.org/20/items/ElephantsDream/ed_1024.mp4',        
     }
 ]

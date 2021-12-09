@@ -1,24 +1,28 @@
 <template>
-  <div class="UploadVideo">
+  <div class="flex flex-col">
 
   <br/>
     
       
   <form @submit.prevent="submit">
-      <h2>Title</h2>
-        <input 
+      <h2 class="text-lg font-bold p-3">Title</h2>
+        <input class="bg-red-50 w-full p-2 rounded-2xl m-2"
             v-model="title" 
         />
         <br/>
-        <h3>Description</h3>
-            <textarea
+        <h2 class="text-lg font-bold p-3">Description</h2>
+            <textarea class="bg-red-50 w-full p-2 rounded-2xl m-2"
                 cols="50"
                 rows="10"
                 v-model="description"
                 />
         <br/>
     </form>
-<button class="btn btn-info" @click="onPickFile">Upload</button>
+    <button class="
+    bg-yellow-500 px-5 py-3 text-sm shadow-sm font-medium tracking-wider
+    text-yellow-100 rounded-full hover:shadow-2xl hover:bg-yellow-600" 
+    @click="onPickFile">
+    Upload</button>
             <input
             type="file"
             style="display: none"
@@ -69,32 +73,5 @@ export default {
 
 
 <style scoped>
-.UploadVideo{
-    margin-top: 2em;
-    margin-bottom: 5em;
-    
-}
-input {
-    border-radius: .5em;
-    width:100%;
-      resize: vertical;
-      padding: .5em;
-      font-size: 2vh;
-}
 
-textarea {
-    border-radius: .5em;
-    width: 100%;
-    resize: vertical;
-    font-size: 2vh;
-
-}
-
-.btn {
-    width:100%;
-    padding: .5em;
-    border-radius: .5em;
-    font-size: 2vh;
-    
-}
 </style>

@@ -1,60 +1,37 @@
 <template>
-  <div id="nav">
-    <div class="centerBar"> 
-    <router-link class="centerBarItem" to="/">
+
+
+  <div class="bg-red-100 p-2 flex justify-center items-center rounded-b-2xl">
+  <div class="flex items-center">
+  <router-link class="p-2" to="/">
       <img src="./assets/akar-icons_home.svg">
     </router-link>
 
-    <router-link class="centerBarItem" to="/upload" >
+        <router-link class="p-2" to="/upload" >
       <img src="./assets/Upload.svg">
     </router-link> 
     
-    <router-link class="centerBarItem" to="/user">
+    <router-link class="p-2 mb-1" to="/user">
       <img src="./assets/carbon_user-avatar.svg" style="margin-bottom: 2px;"
       >
     </router-link>
-</div>
   </div>
+  </div>  
+
+  <div>
   <router-view/>
+  </div>
 </template>
 
 <style>
-#app {
+/* @import url("https://vjs.zencdn.net/7.17.0/video-js.css"); */
+
+
+/* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin-left: 3em;
   margin-right: 3em;
-}
-
-/* #nav { 
-   display: flexbox;
-   left: 0;
-   top:0;
-   margin: 20px;
-   text-align: center;
 } */
-
-#nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  width: 100%;
-  height: 50px;
-  text-align: center;
-  padding:.5em;
-  background-color: rgba(255, 255, 255, 0.76);
-}
-
-.centerBar{
-  position: relative;
-  display: flexbox;
-  height: max-content;
-}
-
-.centerBarItem {
-  
-padding-inline: 10px;
-}
 </style>
