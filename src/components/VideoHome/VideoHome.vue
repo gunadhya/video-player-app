@@ -3,13 +3,13 @@
   <div class="flex" v-if="this.$route.path === '/'" >
         <ul>
           <div class="mt-6 flex space-x-6 flex-wrap px-6">
-             <li
+             <li class="border-red-800 border m-0"
                 v-for="i in videos"
                 :key= "i.id">
               <div class="sm:p-4 md:p-3 rounded-2xl transform transition duration-500 hover:scale-110">
                 <router-link :to="`/videos/${i.id}`">
                   
-                  <div class="">
+                  <div>
                     <img :src=i.thumb class="shadow-lg rounded-md lg:rounded-2xl w-56 h-32 lg:w-64 lg:h-40" :title=i.title> 
                   </div>
                   <div class="text-gray-800 font-medium md:text-lg  lg:text-2xl text-center p-2 sm:text-lg">
@@ -75,8 +75,14 @@ export default {
   border-right: 30px solid orange;
 } */
 
-li:first-child {
-  margin-left: 2vh;
+/* li:first-child {
+  margin-left: 3vh;
+} */
+ul li:first-child {
+  margin-left: 24px;
 }
 
+ul li:last-child {
+  margin-right: 0px;
+}
 </style>
