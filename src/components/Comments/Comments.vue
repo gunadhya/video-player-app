@@ -4,7 +4,7 @@
 
 <div class=" flex m-3 items-center justify-center shadow-md  rounded-t-2xl p-4 flex-col">
     <h1 class="text-xl font-bold">Comments</h1>
-    <div class="overflow-auto sm:h-64 md:h-96">
+    <div class="overflow-auto h-48 sm:h-60 md:h-96">
     <ul>
         <li class="text-xs font-semibold flex">
             <img class="w-8 h-8 mt-2 bg-yellow-200 rounded-full" src="../../assets/logo.png">

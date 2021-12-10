@@ -1,21 +1,20 @@
 <template>
-  <div class="flex flex-col">      
+  <div class="flex flex-col m-12">      
   <form @submit.prevent="submit">
       <h2 class="text-lg font-bold p-3">Title</h2>
-        <input class="bg-red-50 w-full p-2 rounded-2xl m-1"
+        <input class="bg-red-50 w-full p-2 rounded-2xl m-1 shadow-sm"
             v-model="title" 
         />
         <br/>
         <h2 class="text-lg font-bold p-3">Description</h2>
-            <textarea class="bg-red-50 w-full p-2 rounded-2xl m-2"
+            <textarea class="bg-red-50 w-full p-2 rounded-2xl m-2 shadow-sm"
                 cols="50"
                 rows="10"
                 v-model="description"
                 />
         <br/>
     </form>
-    <button class="
-    bg-yellow-500 px-5 py-3 text-sm shadow-sm font-medium tracking-wider
+    <button class="bg-yellow-500 px-5 py-3 text-sm shadow-sm font-medium tracking-wider
     text-yellow-100 rounded-full hover:shadow-2xl hover:bg-yellow-600" 
     @click="onPickFile">
     Upload</button>

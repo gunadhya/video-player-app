@@ -73,5 +73,28 @@ export const testVideos = [
         views: 50,
         thumb: 'https://archive.org/download/ElephantsDream/ElephantsDream.thumbs/ed_1024_000390.jpg',
         source: 'https://ia800209.us.archive.org/20/items/ElephantsDream/ed_1024.mp4',        
-    }
+    },{
+        id:10,
+        title: 'Space',
+        desc : 'Earth from above Lorem ipsum dolor sit amet consectetur adipisicing elit. In quasi optio corrupti, assumenda dolore ipsa nostrum soluta quas sequi eveniet tenetur eaque. Repellendus adipisci hic illo unde a autem labore?',
+        views: 10,
+        thumb: 'https://ia800601.us.archive.org/26/items/GMT137_08_26_Jack-Fischer_88789J_Nanoracks-137_DP014401.MXF/__ia_thumb.jpg',
+        source: 'https://ia600601.us.archive.org/26/items/GMT137_08_26_Jack-Fischer_88789J_Nanoracks-137_DP014401.MXF/GMT137_08_26_Jack-Fischer_88789J_Nanoracks-137_DP014401.mp4',        
+    },
+    {
+        id:11,
+        title: 'Down to earth',
+        desc : 'Short video on space Lorem ipsum dolor sit amet consectetur adipisicing elit. In quasi optio corrupti, assumenda dolore ipsa nostrum soluta quas sequi eveniet tenetur eaque. Repellendus adipisci hic illo unde a autem labore?',
+        views: 12,
+        thumb: 'https://ia902901.us.archive.org/2/items/jsc2020m000087-Down_to_Earth_A_Work_of_Art/__ia_thumb.jpg',
+        source: 'https://ia802901.us.archive.org/2/items/jsc2020m000087-Down_to_Earth_A_Work_of_Art/jsc2020m000087-Down_to_Earth_A_Work_of_Art.mp4',        
+    },
+    {
+        id:12,
+        title: 'Electricsheep',
+        desc : 'short video Lorem ipsum dolor sit amet consectetur adipisicing elit. In quasi optio corrupti, assumenda dolore ipsa nostrum soluta quas sequi eveniet tenetur eaque. Repellendus adipisci hic illo unde a autem labore?',
+        views: 15,
+        thumb: 'https://archive.org/download/electricsheep-flock-247-60000-9/electricsheep-flock-247-60000-9.thumbs/00247%3D60039%3D60039%3D60039_000001.jpg',
+        source: 'https://ia801409.us.archive.org/0/items/electricsheep-flock-247-60000-9/00247%3D60039%3D60039%3D60039.mp4',        
+    },
 ]

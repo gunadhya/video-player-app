@@ -1,7 +1,7 @@
 <template>
-<div class="p-3">
+<div class="mx-1 p-3 ">
 <a @click="click">      
-      <img src=".././../assets/back.svg">
+      <img  class="hover:bg-red-100 rounded-full" src=".././../assets/back.svg">
     </a>
 </div>
 <div class="md:flex">
@@ -9,11 +9,11 @@
   <div class="flex flex-col max-w-2xl">
     
     <div class="flex p-2 m-2">
-        <video width="700" height="500" controls class="rounded-2xl shadow-xl">
+        <video  id="video" width="700" height="500" controls class="rounded-2xl shadow-xl">
           <source :src='videosrc' type="video/mp4">
         </video>
     </div>
-
+  
     <div class="flex justify-between items-center p-3 m-2">
       <div class="text-xl font-bold">{{video.title}}</div>
       <div class="flex">
@@ -63,7 +63,8 @@ export default {
         click(){
         // router.go(-1)
         router.push('/')
-}},
+        },
+},
     computed: {
         video() {
             // return this.videos.value.find(x=> x.id === parseInt(this.$route.params.id,10))
