@@ -22,9 +22,9 @@
                 data-poster=""
             >
                 <source
-                size="1080"
+                :size='videos.size'
                 :src='videosrc'
-                type="video/mp4"
+                :type='videos.type'
                 />
                 <track
                 default

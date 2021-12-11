@@ -1,16 +1,17 @@
 
-
 export const testVideos = [
     
     {
         id:1,
-        title: 'Space',
-        desc : 'Earth from above Lorem ipsum dolor sit amet consectetur adipisicing elit. In quasi optio corrupti, assumenda dolore ipsa nostrum soluta quas sequi eveniet tenetur eaque. Repellendus adipisci hic illo unde a autem labore?',
-        views: 10,
-        thumb: 'https://ia800601.us.archive.org/26/items/GMT137_08_26_Jack-Fischer_88789J_Nanoracks-137_DP014401.MXF/__ia_thumb.jpg',
-        source: 'https://ia600601.us.archive.org/26/items/GMT137_08_26_Jack-Fischer_88789J_Nanoracks-137_DP014401.MXF/GMT137_08_26_Jack-Fischer_88789J_Nanoracks-137_DP014401.mp4',        
+        title: 'Sintel',
+        desc : 'Short blender movie. Lorem ipsum dolor sit amet consectetur adipisicing elit. In quasi optio corrupti, assumenda dolore ipsa nostrum soluta quas sequi eveniet tenetur eaque. Repellendus adipisci hic illo unde a autem labore?',
+        views: 10000,
+        thumb: 'https://bitmovin.com/wp-content/uploads/2016/06/sintel-poster.jpg',
+        source: 'https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f1/Sintel_movie_4K.webm/Sintel_movie_4K.webm.1080p.vp9.webm',        
         track:'',
-        time:'2:43',
+        time:'14:48',
+        type:'video/webm',
+        size:'1080',
     },
     {
         id:2,
@@ -21,6 +22,8 @@ export const testVideos = [
         source: 'https://ia802901.us.archive.org/2/items/jsc2020m000087-Down_to_Earth_A_Work_of_Art/jsc2020m000087-Down_to_Earth_A_Work_of_Art.mp4',        
         track:'',
         time:'4:03',
+        type:'video/mp4',
+        size:'1080',
     },
     {
         id:3,
@@ -31,6 +34,8 @@ export const testVideos = [
         source: 'https://ia801409.us.archive.org/0/items/electricsheep-flock-247-60000-9/00247%3D60039%3D60039%3D60039.mp4',        
         track:'',
         time:'0:05',
+        type:'video/mp4',
+        size:'1080',
     },
     {
         id:4,
@@ -41,6 +46,8 @@ export const testVideos = [
         source: 'https://ia801409.us.archive.org/0/items/electricsheep-flock-247-60000-9/00247%3D60139%3D59616%3D59614.mp4',        
         track:'',
         time:'0:05',
+        type:'video/mp4',
+        size:'1080',
     },
     {
         id:5,
@@ -51,6 +58,8 @@ export const testVideos = [
         source: 'https://ia600300.us.archive.org/17/items/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4',        
         track:'',
         time:'9:56',
+        type:'video/mp4',
+        size:'1080',
     },
     {
         id:6,
@@ -61,6 +70,8 @@ export const testVideos = [
         source: 'https://ia800209.us.archive.org/20/items/ElephantsDream/ed_1024.mp4',        
         track:'',
         time:'10:53',
+        type:'video/mp4',
+        size:'1080',
     },
     {
         id:7,
@@ -71,6 +82,8 @@ export const testVideos = [
         source: 'https://ia801409.us.archive.org/0/items/electricsheep-flock-247-60000-9/00247%3D60139%3D59616%3D59614.mp4',        
         track:'',
         time:'0:05',
+        type:'video/mp4',
+        size:'1080',
     },
     {
         id:8,
@@ -81,6 +94,8 @@ export const testVideos = [
         source: 'https://ia600300.us.archive.org/17/items/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4',        
         track:'',
         time:'9:56',
+        type:'video/mp4',
+        size:'1080',
     },
     {
         id:9,
@@ -91,6 +106,8 @@ export const testVideos = [
         source: 'https://ia800209.us.archive.org/20/items/ElephantsDream/ed_1024.mp4',        
         track:'',
         time:'10:53',
+        type:'video/mp4',
+        size:'1080',
     },{
         id:10,
         title: 'Space',
@@ -100,6 +117,8 @@ export const testVideos = [
         source: 'https://ia600601.us.archive.org/26/items/GMT137_08_26_Jack-Fischer_88789J_Nanoracks-137_DP014401.MXF/GMT137_08_26_Jack-Fischer_88789J_Nanoracks-137_DP014401.mp4',        
         track:'',
         time:'2:43',
+        type:'video/mp4',
+        size:'1080',
     },
     {
         id:11,
@@ -110,6 +129,8 @@ export const testVideos = [
         source: 'https://ia802901.us.archive.org/2/items/jsc2020m000087-Down_to_Earth_A_Work_of_Art/jsc2020m000087-Down_to_Earth_A_Work_of_Art.mp4',        
         track:'',
         time:'4:03',
+        type:'video/mp4',
+        size:'1080',
     },
     {
         id:12,
@@ -120,5 +141,7 @@ export const testVideos = [
         source: 'https://ia801409.us.archive.org/0/items/electricsheep-flock-247-60000-9/00247%3D60039%3D60039%3D60039.mp4',        
         track:'',
         time:'0:05',
+        type:'video/mp4',
+        size:'1080',
     },
 ]
