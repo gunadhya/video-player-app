@@ -2,7 +2,7 @@
   
 <div class="">
 
-<div class=" flex m-3 items-center justify-center shadow-md  rounded-t-2xl p-4 flex-col">
+<div class=" flex m-3  justify-center shadow-md  rounded-t-2xl p-4 flex-col">
     <h1 class="text-xl font-bold">Comments</h1>
     <div class="overflow-auto h-48 sm:h-60 md:h-96">
     <ul>
@@ -62,12 +62,12 @@
 
 <!-- comment form -->
 <div class="flex m-3 items-center justify-center shadow-md rounded-b-md">
-   <form class="w-full bg-white rounded-b-lg px-4 pt-2">
+   <form class="w-full rounded-b-lg px-4 pt-2">
       <div class="flex flex-wrap -mx-3 mb-6">
          <div class="w-full md:w-full px-3 mb-2 mt-2">
             <textarea class="bg-red-100 rounded border border-red-100 leading-normal resize-none w-full h-20 py-2 px-3 font-medium placeholder-gray-700 focus:outline-none focus:bg-red-50" name="body" placeholder='Comment' required></textarea>
          </div>
-         <div class="w-full md:w-full flex items-start md:w-full px-3">
+         <div class="w-full flex items-start md:w-full px-3">
             <div class="flex items-start w-1/2 text-gray-700 px-2 mr-auto">
 
             </div>

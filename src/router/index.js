@@ -1,15 +1,13 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import PlayerPage from '../components/Player/PlayerPage.vue'
-import Home from '../views/Home.vue'
 const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home,
+    component: () => import('../views/Home.vue'),
     children: [
       {
         path:'/videos/:id',
-        component:PlayerPage
+        component: ()=> import(/* webpackPrefetch: true */ '../components/Player/PlayerPage.vue')
       }
     ]
   },

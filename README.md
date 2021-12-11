@@ -1,5 +1,15 @@
 # Video Player Documentation
 
+## Updates
+Dependencies 
+  - VueRouter
+  - tailwindCSS
+  - vue-plyr 
+  - vue3
+
+
+  
+
 ## Mockup
 
 ### Initial Mockup in figma

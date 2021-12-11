@@ -1,6 +1,5 @@
 <template>
 
-
   <div class="bg-red-100 p-2 flex justify-center items-center rounded-b-2xl">
   <div class="flex items-center">
   <router-link class="p-2 transform transition duration-400 hover:scale-110" to="/">
