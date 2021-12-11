@@ -1,5 +1,7 @@
 # Video Player Documentation
 
+
+
 ## Updates
 Dependencies 
   - VueRouter
@@ -7,8 +9,18 @@ Dependencies
   - vue-plyr 
   - vue3
 
+## Reading
+  - https://web.dev/fast/
 
-  
+  - https://medium.com/@inverita/frontend-optimization-8-tips-to-improve-web-performance-29af4b00efe7
+
+  - https://www.smashingmagazine.com/2021/02/optimizing-video-size-quality/
+
+  - https://hackernoon.com/how-to-best-optimize-your-videos-for-the-web-a-quick-guide-492k31bh
+
+  - https://aws.amazon.com/blogs/compute/uploading-to-amazon-s3-directly-from-a-web-or-mobile-application/
+
+  - https://cloud.google.com/storage/docs/uploading-objects#rest-upload-objects 
 
 ## Mockup
 
