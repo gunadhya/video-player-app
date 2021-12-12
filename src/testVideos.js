@@ -1,3 +1,5 @@
+// Contains a list of video links to be used in the project.
+
 
 export const testVideos = [
     

@@ -1,4 +1,8 @@
+// This file contains all the routes of the application
+
 import { createRouter, createWebHashHistory } from 'vue-router'
+
+
 const routes = [
   {
     path: '/',

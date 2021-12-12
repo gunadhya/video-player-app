@@ -1,6 +1,8 @@
 <template>
-  
-<div class="">
+  <!-- Comments Section
+    This section contains a list of previous comments and a new form to add comments to the video.
+  -->
+<div>
 
 <div class=" flex m-3  justify-center shadow-md  rounded-t-2xl p-4 flex-col">
     <h1 class="text-xl font-bold">Comments</h1>
@@ -83,9 +85,8 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-  }
+  name: 'Comments',
+
 }
 </script>
 

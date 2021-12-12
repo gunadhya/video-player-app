@@ -1,4 +1,8 @@
 <template>
+<!-- Upload Page
+    This page lets users upload an image with a title and description.
+    The file picker only allows video files to be selected.
+ -->
   <div class="flex flex-col m-12">      
   <form @submit.prevent="submit">
       <h2 class="text-lg font-bold p-3">Title</h2>

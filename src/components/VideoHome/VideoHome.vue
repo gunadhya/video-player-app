@@ -1,5 +1,8 @@
 <template>
-
+  <!-- Home Page
+      This page shows all the videos in a grid list.
+      Each element contains a video informaion such as thumbnail, title, time.
+   -->
   <div class="flex " v-if="this.$route.path === '/'" >
         <ul>
           <div class="mt-6 flex space-x-6 flex-wrap px-6">
@@ -30,6 +33,7 @@
 
   </div>
 
+  <!-- Router view to render Player -->
     <router-view 
         :videos="videos"
         />
@@ -43,17 +47,11 @@
 import { testVideos } from "../../testVideos"
 import router from "../../router"
 export default {
-
-
   name: 'VideoHome',
-  
-  props: {
-    msg: String
-  },
   computed :{
     statusupdate(){
       return this.click()
-  }
+    }
   },
   data() {
             return {
@@ -64,11 +62,8 @@ export default {
         },
   methods : {
      click() {  
-     this.PageStatus = router.currentRoute.value
-
+      this.PageStatus = router.currentRoute.value
     },
-  
-
   }
 }
 </script>
@@ -76,13 +71,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-/* li:last-child {
-  border-right: 30px solid orange;
-} */
-
-/* li:first-child {
-  margin-left: 3vh;
-} */
+/* This style helps align the list. */
 ul li:first-child {
   margin-left: 24px;
 }

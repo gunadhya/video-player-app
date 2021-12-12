@@ -1,4 +1,8 @@
 <template>
+<!-- User Page
+    Shows users informaion and a sign out button.
+ -->
+
   <div class="text-center">
 
     

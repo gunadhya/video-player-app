@@ -1,13 +1,15 @@
 <template>
+<!-- Main Player page
+    Contains a video player, video information such as title, no of views, description.
+    Has a copy link button which copies the current url to users clipboard.
+    Also has a comments section.
+    Video player is implemented using Plyr.io framework specially made for vue called vue-plyr.
+ -->
 <div class="md:flex m-5">
-
+<!-- Video player section -->
   <div class="flex-1 flex-col max-w-2xl min-h-full">
     
-    <div class="customplyr">
-        <!-- <video  id="video" width="700" height="500" controls class="rounded-2xl shadow-xl">
-          <source :src='videosrc' type="video/mp4">
-        </video> -->
-        
+    <div class="customplyr">       
         <vue-plyr :options="options" >
             <video 
                 preload="auto"
@@ -28,7 +30,7 @@
                 srclang="en"
                 />
             </video>
-            </vue-plyr>
+        </vue-plyr>
             
     </div>
   
@@ -43,11 +45,11 @@
     </div>
 
     <div class="text-base font-medium p-4 m-2">
-     {{video.desc}}
+        {{video.desc}}
     </div>
 </div>
 
-
+<!-- Comments section -->
 <div class="flex-1">
     <CommentsVue/>
 </div>
@@ -89,7 +91,6 @@ export default {
 },
     computed: {
         video() {
-            // return this.videos.value.find(x=> x.id === parseInt(this.$route.params.id,10))
             const vidres = this.videos.find(x => x.id === parseInt(this.$route.params.id, 10));
             this.updateVideo(vidres.source)
             return vidres

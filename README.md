@@ -1,13 +1,18 @@
 # Video Player Documentation
 
 
-
 ## Updates
 Dependencies 
   - VueRouter
   - tailwindCSS
   - vue-plyr 
   - vue3
+
+Replaced default html player with vue-plyr(plyr.io)
+
+Added a dockerfile.
+
+Added different video types and support for track.
 
 ## Reading
   - https://web.dev/fast/
