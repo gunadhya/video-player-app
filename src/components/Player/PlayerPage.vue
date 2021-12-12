@@ -1,15 +1,9 @@
 <template>
-<title>{{videos.title}}</title>
-<div class="mx-1 p-3">
-<a @click="click">      
-      <img  class="hover:bg-red-100 rounded-full" src=".././../assets/back.svg">
-    </a>
-</div>
 <div class="md:flex m-5">
 
   <div class="flex-1 flex-col max-w-2xl min-h-full">
     
-    <div class="p-2 m-2">
+    <div class="customplyr">
         <!-- <video  id="video" width="700" height="500" controls class="rounded-2xl shadow-xl">
           <source :src='videosrc' type="video/mp4">
         </video> -->
@@ -42,7 +36,7 @@
       <div class="text-xl font-bold">{{video.title}}</div>
       <div class="flex">
       <div class="font-bold mr-3 mt-1"> {{Copytext}}</div>
-      <div  class="font-normal min-w-18 text-white text-sm mr-3 bg-blue-400 p-2 rounded-lg" @click="sharelink">Copy Link</div>
+      <div  class="hover:bg-blue-500 font-normal min-w-18 text-white text-sm mr-3 bg-blue-400 p-2 rounded-lg" @click="sharelink">Copy Link</div>
       <div class="mr-2 mt-1"> <img class="viewsicon" src=".././../assets/akar-icons_eye.svg"></div>
       <div class="font-medium"> {{video.views}} Views </div>
       </div>
@@ -63,7 +57,6 @@
 </template>
 
 <script>
-import router from "../../router"
 import CommentsVue from "../Comments/Comments.vue"
 
 export default {
@@ -88,10 +81,6 @@ export default {
         updateVideo(val){
             this.videosrc=val
         },
-        click(){
-        // router.go(-1)
-        router.push('/')
-        },
         sharelink(){
             const currentURL = window.location.href;
             navigator.clipboard.writeText(currentURL);
@@ -112,6 +101,8 @@ export default {
 </script>
 
 <style scoped>
-
+.customplyr{
+    padding: .5em;
+}
 
 </style>
