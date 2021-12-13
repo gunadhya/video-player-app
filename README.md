@@ -39,6 +39,14 @@ Add testing https://testing-library.com/docs/vue-testing-library/intro/
 
   - https://cloud.google.com/storage/docs/uploading-objects#rest-upload-objects 
 
+## Running Screenshots
+![alt text](/doc/med.png)
+![alt text](/doc/player.png)
+![alt text](/doc/upload.png)
+![alt text](/doc/user.png)
+
+
+
 ## Mockup
 
 ### Initial Mockup in figma

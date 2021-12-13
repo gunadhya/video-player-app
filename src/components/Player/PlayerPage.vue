@@ -72,7 +72,7 @@ export default {
             Copytext: '',
             Comments: [
                 {
-                    user:'name',
+                    user:'Name',
                     message:'Hello Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia aliquam minus quas amet eveniet, cum repellendus libero, dolorem soluta illum doloremque debitis a non. Beatae fugit ipsam adipisci tenetur laudantium.',
                 }
             ],
@@ -97,7 +97,7 @@ export default {
         commentnow(val){
             // console.log(val)
             if (val != ''){
-            this.Comments.push({user:'', message:val})
+            this.Comments.push({user:'Name', message:val})
             var objDiv = document.getElementById('scview');
             objDiv.scrollTop = objDiv.scrollHeight; 
              }
