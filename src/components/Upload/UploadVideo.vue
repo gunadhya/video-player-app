@@ -21,7 +21,7 @@
         <br/>
     </form>
     <button class="bg-yellow-500 px-5 py-3 text-sm shadow-sm font-medium tracking-wider
-    text-yellow-100 rounded-full hover:shadow-2xl hover:bg-yellow-600" 
+    text-yellow-100 rounded-full hover:shadow-2xl hover:bg-yellow-600 ml-4" 
     @click="onPickFile">
     Upload</button>
             <input
