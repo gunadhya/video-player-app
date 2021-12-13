@@ -18,6 +18,14 @@ Added Comments and auto update ui based on new comments.
 
 Copy link button which lets users copy the current url.
 
+<br/>
+
+###  In future
+
+Add vuex https://next.vuex.vuejs.org/
+
+Add testing https://testing-library.com/docs/vue-testing-library/intro/
+
 ## Reading
   - https://web.dev/fast/
 
