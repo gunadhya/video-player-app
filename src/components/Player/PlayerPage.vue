@@ -51,7 +51,7 @@
 
 <!-- Comments section -->
 <div class="flex-1">
-    <CommentsVue/>
+    <CommentsVue :commentup="commentnow" :comments="Comments"/>
 </div>
 
 </div>
@@ -70,6 +70,12 @@ export default {
             videosrc:"",
             options:{quality:{default:'1080p'}},
             Copytext: '',
+            Comments: [
+                {
+                    user:'name',
+                    message:'Hello Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia aliquam minus quas amet eveniet, cum repellendus libero, dolorem soluta illum doloremque debitis a non. Beatae fugit ipsam adipisci tenetur laudantium.',
+                }
+            ],
         }
     },
     props: {
@@ -87,7 +93,16 @@ export default {
             const currentURL = window.location.href;
             navigator.clipboard.writeText(currentURL);
             this.Copytext = 'Copied!'
+        },
+        commentnow(val){
+            // console.log(val)
+            if (val != ''){
+            this.Comments.push({user:'', message:val})
+            var objDiv = document.getElementById('scview');
+            objDiv.scrollTop = objDiv.scrollHeight; 
+             }
         }
+
 },
     computed: {
         video() {

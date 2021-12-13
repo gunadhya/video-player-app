@@ -28,7 +28,7 @@
     </div>
   </div>  
 
-  <!-- Main View to render Home Page -->
+  <!-- Main View to render Page -->
   <div>
     <router-view/>
   </div>

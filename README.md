@@ -14,6 +14,10 @@ Added a dockerfile.
 
 Added different video types and support for track.
 
+Added Comments and auto update ui based on new comments.
+
+Copy link button which lets users copy the current url.
+
 ## Reading
   - https://web.dev/fast/
 
